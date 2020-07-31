@@ -1,0 +1,111 @@
+/****** tour package scss *******/
+.review_part{
+  background-image: url(../img/experiance_overlay.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  overflow: hidden;
+  @media #{$tab}{
+    background-image: none;
+    padding: 0;
+  }
+  @media #{$medium_device}{
+    background-image: none;
+  }
+  .single_review_part{
+        margin: 70px 0 40px 0;
+        padding: 100px 50px 50px;
+        box-shadow: 0px 0px 40px 0px rgba(0, 27, 94, 0.1);
+        background-color: $white_color;
+        border-radius: 5px;
+        @media #{$tab}{
+            padding: 80px 25px 25px;
+            margin: 70px 0 30px 0;
+        }
+        text-align: center;
+        img{
+          max-width: 130px;
+          border-radius: 50%;
+          position: absolute;
+          left: 0;
+          right: 0;
+          margin: 0 auto;
+          top: 0;
+        }
+        h4{
+            font-size: 24px;
+            text-transform: capitalize;
+            margin-bottom: 10px;
+        }
+  }
+  .tour_pack_content{
+    h4{
+      margin-top: 40px;
+    }
+  }
+  .tour_pack_text{
+    width: 81%;
+    padding-left: 10%;
+      @media #{$tab}{
+          margin-bottom: 30px;
+          width: 100%;
+          padding-left: 0;
+      }
+      @media #{$medium_device}{
+        width: 100%;
+        padding-left: 0;
+      }
+      img{
+          margin-bottom: 40px;
+          @media #{$tab}{
+              margin-bottom: 15px;
+          }
+      }
+      h2{
+          font-size: 60px;
+          margin-bottom: 30px;
+          text-transform: capitalize;
+          @media #{$tab}{
+              margin-bottom: 15px;
+              font-size: 30px;
+          }
+          @media #{$medium_device}{
+              font-size: 30px;
+          }
+
+      }
+      .btn_1{
+          margin-top: 60px;
+          @media #{$tab}{
+              margin-top: 25px;
+          }
+      }
+  }
+  .owl-nav{
+      position: absolute;
+      left: -62%;
+      bottom: 8px;
+      @media #{$medium_device}{
+        left: -80%;
+        bottom: 50px;
+      }
+      button{
+          text-transform: capitalize;
+          margin-right: 40px;
+          span{
+            font-size: 20px;
+            @include transform_time(.5s);
+            &:hover{
+              color: $btn_bg;
+            }
+          }
+      }
+  }
+}
+.single_pack{
+  @media #{$tab}{
+      padding: 70px 0;
+  }
+  @media #{$medium_device}{
+      padding: 80px 0;
+  }
+}
