@@ -1,0 +1,130 @@
+/**************** our_offer css start ****************/
+
+.our_project {
+    .project_menu_item{
+        float: right;
+        margin-top: 25px;
+        @media #{$tab} {
+            margin: 0 0 20px;
+            float: left;
+        }
+        ul{
+            li{
+                display: inline-block;
+                color: #83868c;
+                font-weight: 500;
+                font-size: 15px;
+                text-transform: capitalize;
+                margin-left: 45px;
+                cursor: pointer;
+                @media #{$tab} {
+                    margin: 0 8px;
+                    
+                }
+                &:hover{
+                    color: $btn_bg;
+                }
+            }
+        }
+        .active{
+            color: $btn_bg;
+        }
+    }
+    .single_our_project {
+        @media #{$small_mobile}{
+            margin-bottom: 20px;
+        }
+        @media #{$large_mobile}{
+            margin-bottom: 20px;
+        }
+        @media #{$tab_device}{
+            margin-bottom: 20px;
+        }
+        @media #{$medium_device}{
+        
+        }
+        &:hover {
+            .single_offer {
+                &:after {
+                    width: 100%;
+                    height: 100%;
+                    left: 0;
+                    top: 0;
+                    opacity: .9;
+                    background-image: url(../img/offer_overlay.png);
+                    z-index: 99;
+                }
+                .hover_text {
+                    opacity: 1;
+                    left: 15px;
+                    right: 15px;
+                    h2{
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+    }
+
+    .single_our_project {
+        position: relative;
+        z-index: 1;
+
+        .single_offer {
+            position: relative;
+            z-index: 3;
+            &:after {
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                width: 100%;
+                height: 100%;
+                background-color: #001b5e;
+                content: "";
+                @include transform_time(0.5s);
+                opacity: 0;
+            }
+
+            img {
+                width: 100%;
+                height: auto;
+                position: relative;
+                z-index: 1;
+            }
+
+            .hover_text {
+                position: absolute;
+                left: 0;
+                right: 0;
+                text-align: center;
+                margin: 0 auto;
+                top: 40%;
+                z-index: 100;
+                opacity: 0;
+                @include transform_time(0.5s);
+
+                img {
+                    max-width: 39px;
+                    max-height: 48px;
+                    margin-bottom: 26px;
+                }
+
+                h2 {
+                    color: $white_color;
+                    font-size: 30px;
+                }
+
+                p {
+                    color: $white_color;
+                    margin-bottom: 9px;
+                    margin-top: 13px;
+                    font-size: 15px;
+                    color: $btn_bg;
+
+                }
+            }
+        }
+    }
+}
+
+/**************** our_offer css end ****************/
