@@ -1,2 +1,2 @@
 # HVAC_Website
-Website for HVAC company
+This repo contains code for a HVAC website
