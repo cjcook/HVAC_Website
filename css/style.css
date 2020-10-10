@@ -507,7 +507,7 @@ ul {
 .btn_1 {
   display: inline-block;
   padding: 13.5px 45px;
-  background-color: #ff5e13;
+  background-color: #3333cc;
   font-size: 14px;
   color: #fff;
   -webkit-transition: 0.5s;
@@ -519,7 +519,7 @@ ul {
 /* line 33, /Applications/MAMP/htdocs/palash/cl/july 2019/190 Pexcon Construction/190 Pexcon Construction html/sass/_button.scss */
 .btn_1:hover {
   color: #fff !important;
-  background-color: #001b5e;
+  background-color: #0041e6;
 }
 
 @media (max-width: 576px) {
@@ -2171,7 +2171,7 @@ ul {
 
 /* line 17, /Applications/MAMP/htdocs/palash/cl/july 2019/190 Pexcon Construction/190 Pexcon Construction html/sass/_menu.scss */
 .main_menu .navbar-toggler span {
-  font-size: 30px;
+  font-size: 40px;
 }
 
 /* line 21, /Applications/MAMP/htdocs/palash/cl/july 2019/190 Pexcon Construction/190 Pexcon Construction html/sass/_menu.scss */
@@ -2190,10 +2190,11 @@ ul {
 /* line 28, /Applications/MAMP/htdocs/palash/cl/july 2019/190 Pexcon Construction/190 Pexcon Construction html/sass/_menu.scss */
 .main_menu .main-menu-item ul li .nav-link {
   color: #0c2e60;
-  font-size: 15px;
-  padding: 0px 24px;
+  font-size: 18px;
+  padding: 0px 32px;
   font-family: "Roboto", sans-serif;
   text-transform: capitalize;
+  text-align: center;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -2338,10 +2339,10 @@ ul {
   height: 800px;
   position: relative;
   overflow: hidden;
-  background-image: url(../img/banner_img.png);
+  background-image: url("../img/banner_img.JPG");
   background-repeat: no-repeat;
-  background-size: content;
-  background-position: right top;
+  background-size: 1600px 800px;
+  background-position: center;
 }
 
 @media (max-width: 991px) {
@@ -2414,6 +2415,7 @@ ul {
   font-weight: 700;
   margin-bottom: 27px;
   line-height: 75px;
+  color: #9999ff
 }
 
 @media (max-width: 991px) {
@@ -2422,6 +2424,7 @@ ul {
     font-size: 30px;
     margin-bottom: 15px;
     line-height: 1.3;
+    color: #9999ff
   }
 }
 
@@ -2431,12 +2434,13 @@ ul {
     font-size: 40px;
     margin-bottom: 15px;
     line-height: 1.4;
+    color: #3333cc
   }
 }
 
 /* line 65, /Applications/MAMP/htdocs/palash/cl/july 2019/190 Pexcon Construction/190 Pexcon Construction html/sass/_banner.scss */
 .banner_part .banner_text h1 span {
-  color: #ff5e13;
+  color: #ffa31a;
 }
 
 /* line 70, /Applications/MAMP/htdocs/palash/cl/july 2019/190 Pexcon Construction/190 Pexcon Construction html/sass/_banner.scss */
@@ -2444,7 +2448,7 @@ ul {
   font-size: 15px;
   line-height: 1.8;
   font-family: "Roboto", sans-serif;
-  color: #777777;
+  color: #ffffff;
 }
 
 /* line 76, /Applications/MAMP/htdocs/palash/cl/july 2019/190 Pexcon Construction/190 Pexcon Construction html/sass/_banner.scss */
@@ -2541,7 +2545,7 @@ ul {
   font-size: 50px;
   margin-bottom: 15px;
   display: inline-block;
-  color: #ff5e13;
+  color: #ffa31a;
 }
 
 /* line 67, /Applications/MAMP/htdocs/palash/cl/july 2019/190 Pexcon Construction/190 Pexcon Construction html/sass/_our_service.scss */
@@ -2832,7 +2836,7 @@ ul {
   position: absolute;
   left: 0;
   top: 20px;
-  color: #ff5e13;
+  color: #ffa31a;
 }
 
 @media (max-width: 991px) {
@@ -3294,7 +3298,7 @@ ul {
 
 /* line 97, /Applications/MAMP/htdocs/palash/cl/july 2019/190 Pexcon Construction/190 Pexcon Construction html/sass/_review.scss */
 .review_part .owl-nav button span:hover {
-  color: #ff5e13;
+  color: #ffa31a;
 }
 
 @media (max-width: 991px) {
@@ -3334,7 +3338,7 @@ ul {
 .member_counter .single_member_counter span {
   font-size: 60px;
   font-weight: 700;
-  color: #ff5e13;
+  color: #ffa31a;
   font-style: "Roboto", sans-serif;
   display: inline-block;
   float: left;
@@ -4682,21 +4686,21 @@ h6 {
 /* line 217, /Applications/MAMP/htdocs/palash/cl/july 2019/190 Pexcon Construction/190 Pexcon Construction html/sass/_elements.scss */
 .genric-btn.primary {
   color: #fff;
-  background: #ff5e13;
+  background: #0000ff;
   border: 1px solid transparent;
 }
 
 /* line 221, /Applications/MAMP/htdocs/palash/cl/july 2019/190 Pexcon Construction/190 Pexcon Construction html/sass/_elements.scss */
 .genric-btn.primary:hover {
-  color: #ff5e13;
-  border: 1px solid #ff5e13;
+  color: #0000ff;
+  border: 1px solid #0000ff;
   background: #fff;
 }
 
 /* line 227, /Applications/MAMP/htdocs/palash/cl/july 2019/190 Pexcon Construction/190 Pexcon Construction html/sass/_elements.scss */
 .genric-btn.primary-border {
-  color: #ff5e13;
-  border: 1px solid #ff5e13;
+  color: #0000ff;
+  border: 1px solid #0000ff;
   background: #fff;
 }
 
