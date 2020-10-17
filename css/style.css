@@ -2166,12 +2166,12 @@ ul {
 
 /* line 13, /Applications/MAMP/htdocs/palash/cl/july 2019/190 Pexcon Construction/190 Pexcon Construction html/sass/_menu.scss */
 .main_menu .navbar {
-  padding: 20px 0px;
+  padding: 10px 0px;
 }
 
 /* line 17, /Applications/MAMP/htdocs/palash/cl/july 2019/190 Pexcon Construction/190 Pexcon Construction html/sass/_menu.scss */
 .main_menu .navbar-toggler span {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 /* line 21, /Applications/MAMP/htdocs/palash/cl/july 2019/190 Pexcon Construction/190 Pexcon Construction html/sass/_menu.scss */
@@ -2190,8 +2190,8 @@ ul {
 /* line 28, /Applications/MAMP/htdocs/palash/cl/july 2019/190 Pexcon Construction/190 Pexcon Construction html/sass/_menu.scss */
 .main_menu .main-menu-item ul li .nav-link {
   color: #0c2e60;
-  font-size: 18px;
-  padding: 0px 32px;
+  font-size: 15px;
+  padding: 0px 24px;
   font-family: "Roboto", sans-serif;
   text-transform: capitalize;
   text-align: center;
@@ -2336,13 +2336,13 @@ ul {
 /**************** banner part css start ****************/
 /* line 2, /Applications/MAMP/htdocs/palash/cl/july 2019/190 Pexcon Construction/190 Pexcon Construction html/sass/_banner.scss */
 .banner_part {
-  height: 800px;
   position: relative;
   overflow: hidden;
   background-image: url("../img/banner_img.JPG");
   background-repeat: no-repeat;
-  background-size: 1600px 800px;
-  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
 }
 
 @media (max-width: 991px) {
@@ -2368,6 +2368,7 @@ ul {
   display: table;
   width: 100%;
   height: 800px;
+  text-align: center;
 }
 
 /* line 26, /Applications/MAMP/htdocs/palash/cl/july 2019/190 Pexcon Construction/190 Pexcon Construction html/sass/_banner.scss */
@@ -2415,7 +2416,7 @@ ul {
   font-weight: 700;
   margin-bottom: 27px;
   line-height: 75px;
-  color: #9999ff
+  color: #ffffff
 }
 
 @media (max-width: 991px) {
@@ -2445,7 +2446,7 @@ ul {
 
 /* line 70, /Applications/MAMP/htdocs/palash/cl/july 2019/190 Pexcon Construction/190 Pexcon Construction html/sass/_banner.scss */
 .banner_part .banner_text p {
-  font-size: 15px;
+  font-size: 20px;
   line-height: 1.8;
   font-family: "Roboto", sans-serif;
   color: #ffffff;
