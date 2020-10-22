@@ -2345,7 +2345,7 @@ ul {
   overflow: hidden;
 }
 
-/*Code to resize home page background image for smaller devices
+/*Code to resize home page background image for smaller devices*/
 @media (max-width: 200px) {
   /* line 2, /Applications/MAMP/htdocs/palash/cl/july 2019/190 Pexcon Construction/190 Pexcon Construction html/sass/_banner.scss */
   .banner_part {
