@@ -2336,16 +2336,17 @@ ul {
 /**************** banner part css start ****************/
 /* line 2, /Applications/MAMP/htdocs/palash/cl/july 2019/190 Pexcon Construction/190 Pexcon Construction html/sass/_banner.scss */
 .banner_part {
-  position: relative;
-  overflow: hidden;
   background-image: url("../img/banner_img.JPG");
+  background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-position: center center;
+  position: relative;
+  overflow: hidden;
 }
 
-@media (max-width: 991px) {
+/*Code to resize home page background image for smaller devices
+@media (max-width: 200px) {
   /* line 2, /Applications/MAMP/htdocs/palash/cl/july 2019/190 Pexcon Construction/190 Pexcon Construction html/sass/_banner.scss */
   .banner_part {
     height: 750px;
