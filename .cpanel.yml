@@ -2,9 +2,15 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/i0gblxg6zh32/public_html/HVAC_Website/
+    - export DEPLOYPATH1=/home/i0gblxg6zh32/public_html/HVAC_Website/css/
+    - export DEPLOYPATH2=/home/i0gblxg6zh32/public_html/HVAC_Website/fonts/
+    - export DEPLOYPATH3=/home/i0gblxg6zh32/public_html/HVAC_Website/img/
+    - export DEPLOYPAT4=/home/i0gblxg6zh32/public_html/HVAC_Website/js/
+    - export DEPLOYPATH5=/home/i0gblxg6zh32/public_html/HVAC_Website/sass/
+
     - /bin/cp * $DEPLOYPATH
-    - /bin/cp/ css/* $DEPLOYPATH
-    - /bin/cp/ fonts/* $DEPLOYPATH
-    - /bin/cp/ img/* $DEPLOYPATH
-    - /bin/cp/ js/* $DEPLOYPATH
-    - /bin/cp/ sass/* $DEPLOYPATH
+    - /bin/cp/ * $DEPLOYPATH1
+    - /bin/cp/ * $DEPLOYPATH2
+    - /bin/cp/ * $DEPLOYPATH3
+    - /bin/cp/ * $DEPLOYPATH4
+    - /bin/cp/ * $DEPLOYPATH5
