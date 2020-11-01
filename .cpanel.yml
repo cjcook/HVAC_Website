@@ -5,7 +5,7 @@ deployment:
     - export DEPLOYPATH1=/home/i0gblxg6zh32/public_html/HVAC_Website/css/
     - export DEPLOYPATH2=/home/i0gblxg6zh32/public_html/HVAC_Website/fonts/
     - export DEPLOYPATH3=/home/i0gblxg6zh32/public_html/HVAC_Website/img/
-    - export DEPLOYPAT4=/home/i0gblxg6zh32/public_html/HVAC_Website/js/
+    - export DEPLOYPATH4=/home/i0gblxg6zh32/public_html/HVAC_Website/js/
     - export DEPLOYPATH5=/home/i0gblxg6zh32/public_html/HVAC_Website/sass/
 
     - /bin/cp * $DEPLOYPATH
